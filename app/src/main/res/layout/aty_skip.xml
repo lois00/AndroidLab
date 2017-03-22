@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:text="请点击下列按钮查看三种布局实验结果："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/tvResult"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="表格布局"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnTableLayout"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/btnRelativeLayout"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="线性布局"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLinearLayout"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/tvResult"
+        android:layout_alignLeft="@+id/btnRelativeLayout"
+        android:layout_alignStart="@+id/btnRelativeLayout" />
+
+    <Button
+        android:text="相对布局"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRelativeLayout"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/btnLinearLayout"
+        android:layout_alignLeft="@+id/btnTableLayout"
+        android:layout_alignStart="@+id/btnTableLayout" />
+</RelativeLayout>

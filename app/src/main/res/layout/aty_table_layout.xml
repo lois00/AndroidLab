@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/aty__table_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgound_color"
+    android:orientation="vertical">
+    <TableLayout
+        android:id="@+id/TableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/tablelayout_paddingleft"
+        android:stretchColumns="0">
+        <TableRow>
+            <TextView
+                android:text="Open..."
+                android:fontFamily="@string/text_font"
+                android:textSize="@dimen/tablelayout_text_size"
+                android:textColor="@color/text_color_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvOpen" />
+            <TextView
+                android:text="Ctrl-O"
+                android:fontFamily="@string/text_font"
+                android:textSize="@dimen/tablelayout_text_size"
+                android:textColor="@color/text_color_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:id="@+id/tvOpenKey"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Save..."
+                android:fontFamily="@string/text_font"
+                android:textSize="@dimen/tablelayout_text_size"
+                android:textColor="@color/text_color_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvSave" />
+            <TextView
+                android:text="Ctrl-S"
+                android:fontFamily="@string/text_font"
+                android:textSize="@dimen/tablelayout_text_size"
+                android:textColor="@color/text_color_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:id="@+id/tvSaveKey" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Save As..."
+                android:fontFamily="@string/text_font"
+                android:textSize="@dimen/tablelayout_text_size"
+                android:textColor="@color/text_color_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvSaveAs" />
+            <TextView
+                android:text="Ctrl-Shift-S"
+                android:fontFamily="@string/text_font"
+                android:textSize="@dimen/tablelayout_text_size"
+                android:textColor="@color/text_color_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:id="@+id/tvSaveAsKey" />
+        </TableRow>
+    </TableLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/line_color_white" />
+    <TableLayout
+        android:id="@+id/TableLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+        <TableRow>
+            <TextView
+                android:text="X  "
+                android:fontFamily="@string/text_font"
+                android:textSize="@dimen/tablelayout_text_size"
+                android:textColor="@color/text_color_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvBlank1" />
+            <TextView
+                android:text="Import..."
+                android:fontFamily="@string/text_font"
+                android:textSize="@dimen/tablelayout_text_size"
+                android:textColor="@color/text_color_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvImport" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="X  "
+                android:fontFamily="@string/text_font"
+                android:textSize="@dimen/tablelayout_text_size"
+                android:textColor="@color/text_color_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvBlank22" />
+            <TextView
+                android:text="Export..."
+                android:fontFamily="@string/text_font"
+                android:textSize="@dimen/tablelayout_text_size"
+                android:textColor="@color/text_color_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvExport" />
+            <TextView
+                android:text="Ctrl-E"
+                android:fontFamily="@string/text_font"
+                android:textSize="@dimen/tablelayout_text_size"
+                android:textColor="@color/text_color_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:id="@+id/tvExportKey"/>
+        </TableRow>
+    </TableLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/line_color_white"/>
+    <TableLayout
+        android:id="@+id/TableLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/tablelayout_paddingleft"
+        android:stretchColumns="0">
+        <TableRow>
+            <TextView
+                android:text="Quit"
+                android:fontFamily="@string/text_font"
+                android:textSize="@dimen/tablelayout_text_size"
+                android:textColor="@color/text_color_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvQuit" />
+        </TableRow>
+    </TableLayout>
+
+</TableLayout>
