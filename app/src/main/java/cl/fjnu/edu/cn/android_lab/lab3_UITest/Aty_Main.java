@@ -33,7 +33,7 @@ public class Aty_Main extends AppCompatActivity {
         findViewById(R.id.btnXMLMenu).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Aty_Main.this,Aty_CustomMenuWithXML.class);
+                Intent i = new Intent(Aty_Main.this,Aty_MenuWithXML.class);
                 startActivity(i);
             }
         });

@@ -8,25 +8,26 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".android_lab.lab3_UITest.Aty_Main">
+        <activity android:name=".android_lab.lab4_SettingActivityTest.Aty_PreferenceActivityTest">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".android_myTest.SendBackData.Aty_SendOut"></activity>
-        <activity android:name=".android_myTest.SendBackData.Aty_SendBack"></activity>
-        <activity android:name=".android_lab.lab1_HelloWorld.Aty_HelloWorld"></activity>
+        <activity android:name=".android_myTest.SendBackData.Aty_SendOut" />
+        <activity android:name=".android_myTest.SendBackData.Aty_SendBack" />
+        <activity android:name=".android_lab.lab1_HelloWorld.Aty_HelloWorld" />
         <activity android:name=".android_lab.lab2_LayoutTest.Aty_Skip" />
         <activity android:name=".android_lab.lab2_LayoutTest.Aty_LinearLayout" />
         <activity android:name=".android_lab.lab2_LayoutTest.Aty_RelativeLayout" />
         <activity android:name=".android_lab.lab2_LayoutTest.Aty_TableLayout" />
-        <!--<activity android:name=".android_lab.lab3_UITest.Aty_Main"></activity>-->
+         <activity android:name=".android_lab.lab3_UITest.Aty_Main"></activity>
         <activity android:name=".android_lab.lab3_UITest.Aty_SimpleAdapter" />
         <activity android:name=".android_lab.lab3_UITest.Aty_CustomAlertDialog" />
-        <activity android:name=".android_lab.lab3_UITest.Aty_CustomMenuWithXML" />
+        <activity android:name=".android_lab.lab3_UITest.Aty_MenuWithXML" />
         <activity android:name=".android_lab.lab3_UITest.Aty_ContextMenuActionMode" />
+        <!--<activity android:name=".android_lab.lab4_SettingActivityTest.Aty_PreferenceActivityTest" />-->
     </application>
 
 </manifest>

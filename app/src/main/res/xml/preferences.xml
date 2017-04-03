@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <cl.fjnu.edu.cn.android_lab.lab4_SettingActivityTest.MyPreferenceCategory
+        android:title="In-line preferences">
+        <CheckBoxPreference
+            android:key="checkboxPref"
+            android:title="Checkbox preferences"
+            android:summary="This is a checkbox."
+            android:defaultValue="false">
+        </CheckBoxPreference>
+    </cl.fjnu.edu.cn.android_lab.lab4_SettingActivityTest.MyPreferenceCategory>
+    <cl.fjnu.edu.cn.android_lab.lab4_SettingActivityTest.MyPreferenceCategory
+        android:title="Dialog-based preferences">
+        <EditTextPreference
+            android:key="editTextPref"
+            android:title="Edit text preference"
+            android:summary="An example that uses an edit text dialog"
+            android:dialogTitle="Testing dialog"
+            android:textColor="#ffffff">
+        </EditTextPreference>
+        <ListPreference
+            android:key="listPref"
+            android:title="List preference"
+            android:summary="An example thst uses a list dialog"
+            android:dialogTitle="Choose one"
+            android:entries="@array/option_value_list"
+            android:entryValues="@array/option_value_list">
+        </ListPreference>
+    </cl.fjnu.edu.cn.android_lab.lab4_SettingActivityTest.MyPreferenceCategory>
+    <cl.fjnu.edu.cn.android_lab.lab4_SettingActivityTest.MyPreferenceCategory
+        android:title="Launch preferences">
+        <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+            android:key="screenPref_screen"
+            android:title="Screen preference"
+            android:summary="Shows another screen of preferences">
+            <PreferenceScreen android:title="Screen preference">
+                <CheckBoxPreference
+                    android:key="checkboxPref_inner"
+                    android:title="Toggle preference"
+                    android:summary="Preference thst is on the next screen but same hierarchy"
+                    android:defaultValue="false">
+                </CheckBoxPreference>
+            </PreferenceScreen>
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="screenPref_intent"
+            android:title="Intent preference"
+            android:summary="Launches an Activity from an intent">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://www.baidu.com"></intent>
+        </PreferenceScreen>
+    </cl.fjnu.edu.cn.android_lab.lab4_SettingActivityTest.MyPreferenceCategory>
+    <cl.fjnu.edu.cn.android_lab.lab4_SettingActivityTest.MyPreferenceCategory
+        android:title="Preference attributes">
+        <CheckBoxPreference
+            android:key="checkboxPref_parent"
+            android:title="Parent checkbox preference"
+            android:summary="This is visually a parent"
+            android:disableDependentsState="false">
+            <!--当父选项的属性disableDependentsState为假时，隐藏子选项。即如果父选项未被勾选，则子选项不显示。-->
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:key="checkboxPref_child"
+            android:title="Child checkbox preference"
+            android:summary="This is visually a child"
+            android:dependency="checkboxPref_parent">
+            <!--子选项依赖于父选项时，使用dependency属性，值设为父选项的key值-->
+        </CheckBoxPreference>
+    </cl.fjnu.edu.cn.android_lab.lab4_SettingActivityTest.MyPreferenceCategory>
+</PreferenceScreen>

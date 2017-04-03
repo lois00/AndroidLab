@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import cl.fjnu.edu.cn.R;
 
-public class Aty_CustomMenuWithXML extends AppCompatActivity {
+public class Aty_MenuWithXML extends AppCompatActivity {
 
     private TextView tv;
 

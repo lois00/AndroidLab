@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Android_Lab</string>
+    <string name="app_name">FragmentPreference</string>
     <string name="text_font">sans-serif</string>
     <!--textview的text空位占位xx-->
     <string name="text_blank">XX</string>
