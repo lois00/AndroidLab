@@ -10,7 +10,7 @@ import android.widget.TextView;
 /**
  * Created by Administrator on 2017-04-03.
  */
-
+//自定义PreferenceCategory类，设置PreferenceCategory的标题的字体大小、颜色，控制大小写等。
 public class MyPreferenceCategory extends PreferenceCategory{
     public MyPreferenceCategory(Context context, AttributeSet attrs) {
         super(context, attrs);
