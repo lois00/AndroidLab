@@ -10,4 +10,4 @@ _**lab3_UITest**_
 [lab3 README.md](https://github.com/lois00/AndroidLab/blob/master/app/src/main/java/cl/fjnu/edu/cn/android_lab/lab3_UITest/README.md)
 <br>
 _**lab4_SettingActivityTest**_
-[]()<br>
+[lab4_SettingActivityTest](https://github.com/lois00/AndroidLab/blob/master/app/src/main/java/cl/fjnu/edu/cn/android_lab/lab4_SettingActivityTest/README.md)<br>
