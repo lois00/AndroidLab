@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cl.fjnu.edu.cn">
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".android_lab.lab4_SettingActivityTest.Aty_PreferenceActivityTest">
+        <activity android:name=".android_lab.lab5_IntentTest.Aty_ImplicitIntent">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -22,12 +20,11 @@
         <activity android:name=".android_lab.lab2_LayoutTest.Aty_LinearLayout" />
         <activity android:name=".android_lab.lab2_LayoutTest.Aty_RelativeLayout" />
         <activity android:name=".android_lab.lab2_LayoutTest.Aty_TableLayout" />
-         <activity android:name=".android_lab.lab3_UITest.Aty_Main"></activity>
+        <activity android:name=".android_lab.lab3_UITest.Aty_Main" />
         <activity android:name=".android_lab.lab3_UITest.Aty_SimpleAdapter" />
         <activity android:name=".android_lab.lab3_UITest.Aty_CustomAlertDialog" />
         <activity android:name=".android_lab.lab3_UITest.Aty_MenuWithXML" />
         <activity android:name=".android_lab.lab3_UITest.Aty_ContextMenuActionMode" />
-        <!--<activity android:name=".android_lab.lab4_SettingActivityTest.Aty_PreferenceActivityTest" />-->
+        <activity android:name=".android_lab.lab4_SettingActivityTest.Aty_PreferenceActivityTest" />
     </application>
-
 </manifest>
