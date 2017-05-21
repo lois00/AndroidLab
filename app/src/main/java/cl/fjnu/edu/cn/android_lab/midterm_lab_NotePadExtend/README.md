@@ -1,4 +1,3 @@
-[TOC]
 # midterm_lab_NotePad_Extend
 ## 项目说明：本实验是基于谷歌SDK NotePad应用做的功能扩展。<br>
 ## 功能列表：<br>
